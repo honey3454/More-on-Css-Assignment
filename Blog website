@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>`substitute(Filename('', 'Page Title'), '^.', '\u&', '')`</title>
+    <style >
+      body{
+        background-color: #f9f9f9;
+        margin:20px;
+        font-family: 'Montserrat', sans-serif; 
+        color:#333;
+        
+      }
+      h1{
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        font-size: 40px;
+      }
+      .content{
+        text-align: center;
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      img{
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+        max-width: 500px;
+      }
+    p{
+      font-size: 20px;
+      line-height: 1.6;
+    }
+    </style>
+  </head>
+  <body>
+    <h1> Google Fonts</h1>
+    <div class="content">
+      <img src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png" alt="Goolge font logo" />
+      <p>
+        Google Fonts is a library of over 1,400 licensed font families, an interactive web directory for browsing the library, and APIs for using the fonts via CSS and Android. It allows designers and developers to use beautiful typography in their projects without worrying about licensing or hosting. With Google Fonts, it’s easy to enhance the look and feel of websites using a wide range of styles and languages.
+      </p>
+    </div>
+  </body>
+</html>

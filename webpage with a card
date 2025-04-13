@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hover Card Opacity</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: #f2f2f2;
+      display:flex ;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      width: 400px;
+      padding: 30px;
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      opacity: 0.6; /* Semi-transparent by default */
+      transition: opacity 0.4s ease;
+      text-align: center;
+    }
+
+    .card:hover {
+      opacity: 1; /* Fully visible on hover */
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      margin-top: 15px;
+      font-size: 22px;
+    }
+
+    .card p {
+      color: #555;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="https://pwskills.com/images/homePage/heroBgImage.webp" alt="Card Image">
+    <h3>Sample Card</h3>
+    <p>This card is semi-transparent. Hover over it to make it fully visible.</p>
+  </div>
+
+</body>
+</html>
+
